@@ -9,6 +9,8 @@ public class Ejercicio4 {
         int b = entrada.nextInt();
         int c = entrada.nextInt();
 
+        entrada.close();
+
         string maximo = (a>b) ? (a>c) ? a : (b>c) ? b : c ;
         string minimo = (a<b ? (a<c) ? a : (b<c) ? b : c ;
         String medio = (a<b && a>c) ? a : (b<a && b>c) ? b : c;
