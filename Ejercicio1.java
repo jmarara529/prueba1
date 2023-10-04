@@ -6,21 +6,21 @@ public class Ejercicio1 {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("introduce valor para a: ");
-        int a = entrada.nextInt();
+        double a = entrada.nextDouble();
 
         System.out.println("introduce valor para b :");
-        int b = entrada.nextInt();
+        double b = entrada.nextDouble();
 
-        int c = entrada.nextInt();
+        double c = entrada.nextDouble();
 
         entrada.close();
 
         System.out.println("operacion a: ");
-        int solua =  a*b + c*((3-a)/(2*b));
+        double solua =  a*b + c*((3-a)/(2*b));
         System.out.println(solua);
 
         System.out.println("operacion b: ");
-        int solub = ((2+a*b)/4)^(c+2);
+        double solub = ((2+a*b)/4)^(c+2);
         System.out.println(solub);
 
         System.out.println("operacion c: ");
